@@ -7,13 +7,29 @@
 <meta name="description" content="Cette page n'existe pas sur le site Ankata.">
 <link rel="stylesheet" href="/style.css">
 <meta name="theme-color" content="#0B0C0E">
+<meta name="color-scheme" content="light dark">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap"><a class="logo" href="/">Ankata</a></div>
+<header class="site-bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="/" aria-label="Ankata, accueil"><span class="ring"><img src="/assets/ankata-mark.webp" alt="" width="34" height="36"></span></a>
+    <nav class="bar-nav" aria-label="Menu principal">
+      <a href="/">Accueil</a>
+      <a href="/confidentialite/">Confidentialité</a>
+      <a href="/supprimer-compte/">Supprimer votre compte</a>
+    </nav>
+    <details class="bar-menu">
+      <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+      <nav aria-label="Menu">
+        <a href="/">Accueil</a>
+        <a href="/confidentialite/">Confidentialité</a>
+        <a href="/supprimer-compte/">Supprimer votre compte</a>
+      </nav>
+    </details>
+  </div>
 </header>
 
 <main>
